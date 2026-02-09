@@ -7,7 +7,7 @@ x0 <- exp(theta0)
 
 # strictly positive growth with Matthew effect
 growth_true <- exp(
-  0.3 * (theta0) + rnorm(n, 0, 0.3)
+  0.3 * (x0) + rnorm(n, 0, 0.3)
 )
 
 x1 <- x0 + growth_true
